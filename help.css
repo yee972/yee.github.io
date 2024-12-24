@@ -1,0 +1,44 @@
+/*CONTENT*/
+.content-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*HEROIMAGE*/
+.hero img {
+    width: 100%;
+}
+
+/*CONTENT*/
+.subheader {
+    text-align: center;
+    padding: 10px 300px 10px 300px;
+}
+
+.content:nth-of-type(even){
+    background-color: white;
+}
+
+.content:nth-of-type(odd){
+    background-color: #f5f5f5 ;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 50px 300px 50px 300px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    padding: 10px 5px 0 5px;
+}

@@ -1,0 +1,186 @@
+/*NAVIGATION BAR*/
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul a:hover {
+    border-bottom: black 1px solid;
+}
+
+#nav ul a:visited {
+    color: grey;
+}
+
+#nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 600px;
+    margin-left: 2%;
+}
+
+#nav li {
+    align-content: center;
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hotspot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: black;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    font-size: 34px;
+    margin-right: 8%;
+}
+
+/*FOOTER*/
+#footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+    .ft1 {
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 50%;
+    }
+
+        .hotspotFT {
+            color: white;
+            align-content: center;
+            text-align: left;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            height: 100%;
+            width: 15%;
+        }
+
+        .navFT {
+            text-align: center;
+            align-content: center;
+            height: 100%;
+            width: 25%;
+            margin: 0 7.5%;
+        }
+
+            .navFT a {
+                color: rgba(255, 255, 255, 0.804);
+                text-decoration: none;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 16px;
+                padding: 0 10px;
+            }
+
+            .nav1 {
+                margin: 0 0 10px 0;
+            }
+
+        .contactFT {
+            align-content: center;
+            text-align: left;
+            height: 100%;
+            width: 16%;
+        }
+
+            .contactFT a {
+                display: flex;
+                text-align: left;
+                color: rgba(255, 255, 255, 0.804);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+            .contactFT #contactB {
+                margin-bottom: 10px;
+            }
+
+            #email, #phone {
+                font-size: small;
+            }
+
+            #email {
+                padding: 10px 0 0 0;
+            }
+
+    .ft2 {
+        border-top: 1px solid grey;
+        position: absolute;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        bottom: 0;
+        width: 85.5%;
+        height: 50%;
+    }
+        .ft2 .containerFT1 {
+            position: relative;
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+            width: 30%;
+            height: 50%;
+            padding-top: 4%;
+        }
+
+        .ft2 .icons {
+            align-self: center;
+            width: 40px;
+            height: 40px;
+            padding-top: 10px;
+        }
+
+        .ft2 .icons img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid white;
+        }
+
+        .ft2 .containerFT2 {
+            position: absolute;
+            text-align: center;
+            bottom: 0;
+            width: 30%;
+            height: 50%;
+            padding-top: 2%;
+        }
+
+        .ft2 small {
+            color: rgba(255, 255, 255, 0.804);
+        }
+
+.hotspotFT a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
